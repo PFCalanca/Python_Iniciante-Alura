@@ -5,9 +5,10 @@ print(f"{'~'*45}")
 numero_secreto = 42
 rodada = 1
 tentativas = 3
+total_tentativas= 3
 
-while(rodada <= tentativas):
-    print("Tentativas",rodada,"de",tentativas)
+for rodada in range(1, total_tentativas + 1):
+    print("Tentativas {} de {}".format(rodada,total_tentativas))
     chute = float(input("Digite o seu numero:\n "))
     maior = chute > numero_secreto
     menor = chute < numero_secreto
