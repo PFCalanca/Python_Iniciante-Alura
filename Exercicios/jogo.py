@@ -12,5 +12,7 @@ jogo = int(input("Qual jogo?"))
 
 if (jogo ==1):
     print("Jogando Forca!!")
+    forca.jogar_forca()
 elif(jogo==2):
     print("Jogando Adivinhação")
+    jogar_advinhacao()
