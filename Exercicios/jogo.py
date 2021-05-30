@@ -1,8 +1,9 @@
 import Adivinhação
 import forca
-print("~"*45)
-print(f"{'~'*5}Escolha o seu jogo!!{'~'*5}")
-print(f"{'~'*45}")
+print("*********************************")
+print("*******Escolha o seu jogo********")
+print("*********************************")
+
 
 
 
