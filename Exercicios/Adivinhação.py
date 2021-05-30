@@ -43,3 +43,6 @@ def jogar_advinhacao():
         rodada += 1
 
     print("Fim de game.")
+
+if(__name__=="__main__"):
+    jogar_advinhacao()
